@@ -4,7 +4,7 @@ public class Problem4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter numbers: ");
+        System.out.println("Enter numbers with space separated: ");
         String[] input = sc.nextLine().split(" ");
 
         int[] numbers = new int[input.length];
